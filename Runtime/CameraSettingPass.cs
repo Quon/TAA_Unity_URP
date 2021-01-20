@@ -9,10 +9,6 @@ namespace Naiwen.TAA
         ProfilingSampler m_ProfilingSampler;
         string m_ProfilerTag = "SetCamera";
         TAAData m_TaaData;
-        internal CameraSettingPass()
-        {
-            renderPassEvent = RenderPassEvent.BeforeRenderingOpaques;
-        }
 
         internal void Setup(TAAData data)
         {
